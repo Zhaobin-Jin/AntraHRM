@@ -10,3 +10,6 @@
 /Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/obj/Debug/net6.0/refint/Infrastructure.dll
 /Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
 /Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/bin/Debug/net6.0/ApplicationCore.dll
+/Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/zj/RiderProjects/HRM/Services/Recruiting/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete

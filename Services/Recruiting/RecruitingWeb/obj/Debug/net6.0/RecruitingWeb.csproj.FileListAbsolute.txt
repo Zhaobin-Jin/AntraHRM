@@ -29,3 +29,8 @@
 /Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/obj/Debug/net6.0/RecruitingWeb.pdb
 /Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/obj/Debug/net6.0/RecruitingWeb.genruntimeconfig.cache
 /Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/obj/Debug/net6.0/ref/RecruitingWeb.dll
+/Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/bin/Debug/net6.0/ApplicationCore.dll
+/Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/bin/Debug/net6.0/Infrastructure.dll
+/Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/bin/Debug/net6.0/Infrastructure.pdb
+/Users/zj/RiderProjects/HRM/Services/Recruiting/RecruitingWeb/obj/Debug/net6.0/RecruitingWeb.csproj.CopyComplete

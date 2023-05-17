@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using ApplicationCore.Contracts.Services;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using RecruitingWeb.Models;
 
@@ -6,10 +8,17 @@ namespace RecruitingWeb.Controllers;
 
 public class JobsController : Controller
 {
+    private IJobsService _jobService;
+    public JobsController(IJobsService jobService)
+    {
+        _jobService = jobService;
+    }
     [HttpGet]
     public IActionResult Index()
     {
         // all jobs can be applied
+        
+        var jobs = _jobService.GetAllJobs();
         return View();
     }
     
@@ -17,6 +26,8 @@ public class JobsController : Controller
     public IActionResult Details(int id)
     {
         // get details
+        
+        var jobs = _jobService.GetJobById(4);
         return View();
     }
     

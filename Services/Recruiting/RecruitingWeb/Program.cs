@@ -1,8 +1,13 @@
+using ApplicationCore.Contracts.Services;
+using Infrastructure.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IJobsService, JobService>();
 
+// Ninject and autofac(if need method injection for core)
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

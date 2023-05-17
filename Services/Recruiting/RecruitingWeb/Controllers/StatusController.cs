@@ -1,10 +1,10 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RecruitingWeb.Models;
 
 namespace RecruitingWeb.Controllers;
 
-public partial class SubmissionsController : Controller
+public class StatusController : Controller
 {
     public IActionResult Index()
     {
